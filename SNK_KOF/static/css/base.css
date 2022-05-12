@@ -1,0 +1,63 @@
+.kof {
+    width: 1280px;
+    height: 720px;
+    background-image: url('../images/素材/拳皇背景像素图/5eb88fe63a879c487f2f551ffa42db7b.gif');
+    background-size: 100% 100%;
+    background-position: top;
+    margin: auto;
+}
+
+.kof>.kof-head {
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.kof>.kof-head>.kof-head-hp-0 {
+    height: 40px;
+    width: calc(50% - 60px);
+    margin-left: 40px;
+    margin-right: 5px;
+    border: white 5px solid;
+    border-right: none;
+    box-sizing: border-box;
+
+}
+
+.kof>.kof-head>.kof-head-timer {
+    height: 60px;
+    width: 80px;
+    background-color: orange;
+    border: white 5px solid;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;
+}
+
+.kof>.kof-head>.kof-head-hp-1 {
+    height: 40px;
+    width: calc(50% - 60px);
+    margin-left: 5px;
+    border: white 5px solid;
+    box-sizing: border-box;
+}
+
+.kof>.kof-head>.kof-head-hp-0>div {
+    background-color: lightgreen;
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+
+.kof>.kof-head>.kof-head-hp-1>div {
+    background-color: lightgreen;
+    height: 100%;
+    width: 100%;
+}
